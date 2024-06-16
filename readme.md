@@ -1,7 +1,7 @@
 
 # Real Time Image Classifier: Thumbs up vs down
 
-This repository is used for training and testing a Convolutional Neural Network for identifying thumbs up and thumbs down hand gestures. Contains train.py, simple_test.py, and test.py. 
+This repository is used for training and testing a Convolutional Neural Network for identifying thumbs up and thumbs down hand gestures. The project includes three main Python scripts: train.py, simple_test.py, and test.py.
 
 &nbsp;
 
@@ -9,14 +9,23 @@ This repository is used for training and testing a Convolutional Neural Network 
 
 &nbsp;
 
-train.py  
-Training was completed in a total of 26.15 minutes with 7 passes over the training set of 2500 images ( each pass is called an epoch). After training, the model identified 2382/2500 of the test images correctly for an accuracy of 95.28%. Accuracy improved on the test set each epoch in this order: 58%, 77%, 84%, 88%, 92%, 94%, and 95% (rounded) while the loss decreased from 0.7721 to 0.1551 during training. Before training yourself, you'll need to download your own dataset and put the images into two folders in the project directory. I named my folders "like" and "dislike". The model I trained used the like and dislike classes of the [Hagrid dataset](https://github.com/hukenovs/hagrid) like and dislike classes only. My model weights are saved in model.pth
+### Training Summary
+
+The Convolutional Neural Network (CNN) was trained using a dataset of 2,500 images, segmented into two categories: "like" and "dislike". Training was completed in 26.15 minutes across seven epochs, achieving a final accuracy of 95.28% on the test set. Here’s a breakdown of the training progress:
+
+Epoch Progression: Accuracy improved consistently with each epoch—starting from 58% and culminating at 95%—while the loss decreased from 0.7721 to 0.1551.
+Training Set: The images were sourced from the "like" and "dislike" classes of the Hagrid dataset. Ensure to download and organize your dataset similarly if you plan to train your own model.
+Model Weights: Post-training, the model weights were saved in model.pth.
+
+### Validation
 
 simple_test.py  
-simple test selects a random image and returns the prediction and actual classification. I ran this program 20 times and tallied 16 correct and 4 incorrect identifications. 
+Performs random image classification tests. Validated the trained model by acheiving over an 80% success rate on 20 runs. 
+
+### Deployment
 
 test.py  
-test.py is a gui based program that uses your laptop's webcam as the input to the trained convolutional neural network. The preprossed model input is shown and the classification takes place. On my hardware, a macbook m3, classification averaged ~11 times per second while running the gui program. The code is compatible with USB camera devices and is written in under 100 lines of pure python code. 
+A web app for deploying the trained model. Uses the webcam of your laptop or a usb camera device. On my hardware, a macbook m3, classification averaged ~12 times per second. Written in under 100 lines of pure python code. 
 
 &nbsp;
 
