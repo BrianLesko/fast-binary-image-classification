@@ -9,7 +9,7 @@ This repository is used for training and testing a Convolutional Neural Network 
 
 &nbsp;
 
-### Training Summary
+## Training Summary
 
 The Convolutional Neural Network (CNN) was trained using a dataset of 2,500 images, segmented into two categories: "like" and "dislike". Training was completed in 26.15 minutes across seven epochs, achieving a final accuracy of 95.28% on the test set. Here’s a breakdown of the training progress:
 
@@ -17,12 +17,12 @@ Epoch Progression: Accuracy improved consistently with each epoch—starting fro
 Training Set: The images were sourced from the "like" and "dislike" classes of the Hagrid dataset. Ensure to download and organize your dataset similarly if you plan to train your own model.
 Model Weights: Post-training, the model weights were saved in model.pth.
 
-### Validation
+## Validation
 
 simple_test.py  
 Performs random image classification tests. Validated the trained model by acheiving over an 80% success rate on 20 runs. 
 
-### Deployment
+## Deployment
 
 test.py  
 A web app for deploying the trained model. Uses the webcam of your laptop or a usb camera device. On my hardware, a macbook m3, classification averaged ~12 times per second. Written in under 100 lines of pure python code. 
