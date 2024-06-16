@@ -34,7 +34,7 @@ To run, use the following commands in your terminal:
 python3 -m venv my_env  
 source my_env/bin/activate # or on windows: source my_env\Scripts\activate  
 pip install -r requirements.txt  
-streamlit run app.py  
+streamlit run test.py  
 ```
 
 to stop the app, go back to the terminal and press control C
