@@ -21,7 +21,7 @@ test.py is a gui based program that uses your laptop's webcam as the input to th
 ## Dependencies
 
 `Streamlit` - for the web interface
-`pytorch` - to download the Machine learning model and run it
+`pytorch` - to download the Machine learning model and run it, torch and torchvision
 `opencv` - to fetch the camera feed from your device
 `pillow` - python image library for converting from opencv to torchvision format
 `numpy` - for numerical arrays
