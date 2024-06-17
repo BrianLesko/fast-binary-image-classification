@@ -13,9 +13,11 @@ This repository is used for training and testing a Convolutional Neural Network 
 
 The Convolutional Neural Network (CNN) was trained using a dataset of 2,500 images, segmented into two categories: "like" and "dislike". Training was completed in 26.15 minutes across seven epochs, achieving a final accuracy of 95.28% on the test set. Here’s a breakdown of the training progress:
 
-Epoch Progression: Accuracy improved consistently with each epoch—starting from 58% and culminating at 95%—while the loss decreased from 0.7721 to 0.1551.
-Training Set: The images were sourced from the "like" and "dislike" classes of the Hagrid dataset. Ensure to download and organize your dataset similarly if you plan to train your own model.
-Model Weights: Post-training, the model weights were saved in model.pth.
+Accuracy improved logarithmically with each epoch. Concurrently the loss function output decreased from 0.7721 to 0.1551. The training dataset was sourced from the "like" and "dislike" classes of the Hagrid dataset. 
+
+If you plan to train your own model, ensure to download and organize your dataset similarly.
+
+Themodel weights were saved in model.pth.
 
 ## Validation
 
