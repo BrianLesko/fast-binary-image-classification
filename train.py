@@ -15,6 +15,7 @@ model = models.vgg16(pretrained=True)
 for param in model.parameters():
     param.requires_grad = False  # Freeze all the pretrained layers
 
+
 print("Adding classifier")
 # Updating the classifier with the correct input size
 input_features = model.classifier[0].in_features
