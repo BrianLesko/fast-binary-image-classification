@@ -1,3 +1,7 @@
+# Brian Lesko
+# 6/19/2024
+# Randomly select images from the like and dislike folders, make a prediction, and print the results.
+
 from PIL import Image
 from torchvision import models, transforms
 import torch

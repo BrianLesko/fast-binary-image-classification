@@ -1,10 +1,14 @@
+# Brian Lesko
+# 6/19/2024
+# Use transfer learning to quickly retrain a VGG16 model to classify images of thumbs up and thumbs down. The model is trained on a dataset of 5000 images and achieves an accuracy of 99.8% on the test set. The model is then loaded into a Streamlit app to classify images in real-time using the webcam.
+
 import os
 import torch
+import torch.nn as nn
+import torch.optim as optim
+from torch.utils.data import Dataset, DataLoader
 import time
 from PIL import Image
-#from torch.utils.data import Dataset, DataLoader
-#import torch.nn as nn
-#import torch.optim as optim
 from torchvision import models, transforms
 from sklearn.model_selection import train_test_split
 import numpy as np

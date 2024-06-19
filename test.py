@@ -1,6 +1,6 @@
 # Brian Lesko
 # 06/09/2024
-# Classify Images using VGG16
+# Classify Images using VGG16 in a web app, fetch the camera feed, preprocess the image, and make a prediction in real-time.
 
 import streamlit as st
 import torch
