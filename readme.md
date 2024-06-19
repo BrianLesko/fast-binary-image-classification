@@ -1,7 +1,11 @@
 
 # Real Time Image Classifier: Thumbs up vs down
 
-This repository houses a binary image classifier designed to distinguish between "thumbs up" and "thumbs down" hand gestures. Leveraging the pretrained VGG16 convolutional neural network, the model boasts rapid training and retraining capabilities, suited for deployment on personal computers. The model achieves 95% accuracy on a test set of 2,500 images, with training completed in just over 26 minutes. The project includes three main Python scripts: train.py, simple_test.py, and test.py.
+This repository houses a binary image classifier designed to distinguish between "thumbs up" and "thumbs down" hand gestures. 
+
+Leveraging the pretrained VGG16 convolutional neural network, the model boasts rapid training and retraining capabilities, suited for deployment on personal computers. 
+
+The model achieves 95% accuracy on a test set of 2,500 images, with training completed in just over 26 minutes. The project includes three main Python scripts: train.py, simple_test.py, and test.py.
 
 &nbsp;
 
@@ -11,7 +15,9 @@ This repository houses a binary image classifier designed to distinguish between
 
 ## Training Summary
 
-The model was trained using a dataset of 2,500 images divided into two categories: "like" and "dislike". The training was executed over seven epochs and took 26.15 minutes, achieving a final test accuracy of 95.28%. The accuracy increased logarithmically, while the loss decreased from 0.7721 to 0.1551 across epochs. This dataset was sourced from the "like" and "dislike" classes of the Hagrid hand gesture dataset. Model weights are stored in model.pth.
+The model was trained using a dataset of 2,500 images divided into two categories: "like" and "dislike". The training was executed over seven epochs and took 26.15 minutes, achieving a final test accuracy of 95.28%. The accuracy increased logarithmically, while the loss decreased from 0.7721 to 0.1551 across epochs. 
+
+This dataset was sourced from the "like" and "dislike" classes of the Hagrid hand gesture dataset. Model weights are stored in model.pth.
 
 If you plan to train your own model, ensure to download and organize your dataset similarly.
 
