@@ -39,8 +39,6 @@ The repository includes a web app that integrates with either a laptop webcam or
 
 To run the deployment code, follow the usage instructions below.
 
-&nbsp;
-
 ## Usage
 
 To deploy the machine learning model locally, execute the following commands:
@@ -86,9 +84,9 @@ model.classifier = nn.Sequential(
 )
 ```
 
-ReLU: Adds non-linearity, helping the model learn complex patterns.
-Dropout (60%): Minimizes overfitting during neural network training.
-Sigmoid: Ensures output values are between 0 and 1, perfect for engineering binary classification.
+ReLU: Adds non-linearity, helping the model learn complex patterns.  
+Dropout (60%): Minimizes overfitting during neural network training.  
+Sigmoid: Ensures output values are between 0 and 1, perfect for engineering binary classification.  
 
 ## Motivation
 
