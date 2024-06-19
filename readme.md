@@ -96,6 +96,8 @@ This project is intended as a review of machine learning and AI concepts, while 
 
 Next, I intend to use transfer learning and the softmax for a multi-class classification neural network and integrate additional functionality into the deployed machine learning model and user interface.
 
+If you find this project useful, please consider giving it a :star:
+
 <hr>
 
 &nbsp;
