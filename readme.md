@@ -3,7 +3,7 @@
 
 Written in [pure python](), this repository was used to [train](https://github.com/BrianLesko/fast-binary-image-classification/blob/main/train.py) and [deploy](https://github.com/BrianLesko/fast-binary-image-classification/blob/main/deploy.py) a binary image classifier engineered to distinguish between "thumbs up" and "thumbs down" hand gestures.
 
-Leveraging the pretrained VGG16 convolutional neural network, the model boasts rapid training and retraining capabilities, suited for deployment on personal computers. 
+Leveraging the VGG16 convolutional neural network with pretrained weights, the model boasts rapid training and retraining capabilities, suited for deployment on personal computers for custom use cases. This model debuted in [Very Deep Convolutional Networks for Large-Scale Image Recognition](https://arxiv.org/abs/1409.1556) in 2014. Newer models are more compute efficient; therefor, this repository is not suited to large scale deployment and is better used as a learning resourse or local deployment - where it is capable of competent accuracy (95% test accuracy in this demonstration) at the tradeoff of inflated compute cost. 
 
 The model achieves 95% accuracy on a test set of 2,500 images, with training completed in just over 26 minutes. The project includes three main Python scripts: train.py, simple_test.py, and test.py, each written concisely - taking advantage of the power of Python in building complex machine learning (ML) models, quickly.
 
