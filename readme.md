@@ -1,7 +1,7 @@
 
 # Real Time Image Classifier: Thumbs up vs down
 
-Written in [pure python](), this repository was used to train and deploy a binary image classifier engineered to distinguish between "thumbs up" and "thumbs down" hand gestures.
+Written in [pure python](), this repository was used to [train](https://github.com/BrianLesko/fast-binary-image-classification/blob/main/train.py) and deploy a binary image classifier engineered to distinguish between "thumbs up" and "thumbs down" hand gestures.
 
 Leveraging the pretrained VGG16 convolutional neural network, the model boasts rapid training and retraining capabilities, suited for deployment on personal computers. 
 
