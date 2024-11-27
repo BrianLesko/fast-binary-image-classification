@@ -17,7 +17,7 @@ Leveraging the VGG16 convolutional neural network with pretrained weights, the m
 
 The model was engineered using a dataset of 2,500 images divided into two categories: "like" and "dislike". The training was executed over seven epochs and took 26.15 minutes, achieving a final test accuracy of 95.28%. The accuracy increased logarithmically, while the loss decreased from 0.7721 to 0.1551 across epochs. 
 
-This dataset was sourced from the "like" and "dislike" classes of the Hagrid hand gesture dataset. Model weights are stored in model.pth.
+This dataset was sourced from the "like" and "dislike" classes of the Hagrid hand gesture dataset. Model weights are stored in model.pth. You can also use the flickr api to download images from the web for any given category. 
 
 If you plan to train your own model, ensure to download and organize your dataset similarly.
 
@@ -46,7 +46,7 @@ To deploy the machine learning model locally, execute the following commands:
 ```
 python3 -m venv my_env  
 source my_env/bin/activate # or on windows: source my_env\Scripts\activate  
-pip install -r requirements.txt  
+pip install -r requirements.txt 
 streamlit run test.py 8000
 ```
 
