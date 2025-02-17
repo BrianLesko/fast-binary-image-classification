@@ -96,6 +96,8 @@ Next, I intend to use transfer learning and the softmax for a multi-class classi
 
 If you find this project useful, please consider giving it a :star:
 
+&nbsp;
+
 <hr>
 
 &nbsp;
@@ -118,7 +120,8 @@ If you find this project useful, please consider giving it a :star:
 
 <a href="https://x.com/TheBrianLesko/status/1124018912268554240"><img src="https://raw.githubusercontent.com/BrianLesko/BrianLesko/main/.socials/svg-grey/x.svg" width="30" alt="X Logo"></a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="https://github.com/BrianLesko"><img src="https://raw.githubusercontent.com/BrianLesko/BrianLesko/main/.socials/svg-grey/github.svg" width="30" alt="GitHub"></a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="https://www.linkedin.com/in/brianlesko/"><img src="https://raw.githubusercontent.com/BrianLesko/BrianLesko/main/.socials/svg-grey/linkedin.svg" width="30" alt="LinkedIn"></a>
 
-follow all of these for a cookie :)
+
+follow all of these for pizza :)
 
 </div>
 
